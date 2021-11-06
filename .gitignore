@@ -1,0 +1,11 @@
+========== pycharm ==========
+*.idea/
+
+========== secrets ==========
+/secrets/*
+!/secrets/secret_file.json
+app/.env
+
+========== tests ==========
+/tests/*
+!tests/test_file.py
