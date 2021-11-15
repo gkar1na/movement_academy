@@ -76,3 +76,6 @@ def start():
                         message_text=settings.TEXT_WELCOME,
                         attachment=settings.ATTACHMENT_WELCOME
                     )  # отправка приветственного сообщения
+
+    session.commit()  # сохранение возможных изменений БД
+    session.close()  # завершение сессии подключения к БД
